@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 
-MODEL_PATH = 'artifacts\credit_risk_model.joblib'
+MODEL_PATH = 'artifacts/credit_risk_model.joblib'
 
 model_data = joblib.load(MODEL_PATH)
 model = model_data['model']
